@@ -1,0 +1,39 @@
+# ---- Python / Django ----
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+
+# Django stuff
+media/
+staticfiles/
+.env
+.env.*
+
+# Virtualenv
+venv/
+env/
+.venv/
+
+
+# ---- Node / React (npm / yarn / pnpm) ----
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml   # <-- ajouté pour pnpm
+
+# Build
+frontend/build/
+frontend/.env
+
+# ---- IDE & OS ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
