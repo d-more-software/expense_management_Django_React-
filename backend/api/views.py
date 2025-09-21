@@ -8,3 +8,9 @@ from .serializers import TransactionSerializer
 class TransationListCreateAPIView(generics.ListCreateAPIView):
     queryset = Transaction.objects.all()
     serializer_class = TransactionSerializer 
+
+
+class TransactionRetrieveUpdateDestroyAPIView(generics.RetrieveUpdateDestroyAPIView):
+    queryset = Transaction.objects.all()
+    serializer_class = TransactionSerializer 
+    lookup_field= "id"
