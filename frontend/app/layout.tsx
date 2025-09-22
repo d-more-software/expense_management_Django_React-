@@ -29,7 +29,7 @@ export default function RootLayout({
 				className={`${geistSans.variable} ${geistMono.variable} antialiased`}
 			>
 				<Toaster />
-				<div className="flex justify-center items-center" >{children}</div>
+				<div className="flex justify-center items-center min-h-screen my-5" >{children}</div>
 			</body>
 		</html>
 	);
